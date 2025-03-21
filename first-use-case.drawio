@@ -1,0 +1,91 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.1">
+  <diagram name="Page-1" id="VaPmY5GwH4Xocj4jI77k">
+    <mxGraphModel dx="1026" dy="650" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WxggVFZYJX4_dqJ5AxjA-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="120" width="240" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="xMFwPtLSbpC_3gg9WsXq-1" value="Create Trip Entry" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="300" y="140" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="xMFwPtLSbpC_3gg9WsXq-2" value="Edit Trip" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="300" y="230" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="xMFwPtLSbpC_3gg9WsXq-3" value="Export App Database" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="300" y="330" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="xMFwPtLSbpC_3gg9WsXq-4" value="Mobile User" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;" parent="1" vertex="1">
+          <mxGeometry x="120" y="160" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xMFwPtLSbpC_3gg9WsXq-5" value="Power User" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;" parent="1" vertex="1">
+          <mxGeometry x="120" y="290" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WxggVFZYJX4_dqJ5AxjA-1" value="" style="endArrow=none;html=1;rounded=0;exitX=-0.007;exitY=0.329;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="xMFwPtLSbpC_3gg9WsXq-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="360" as="sourcePoint" />
+            <mxPoint x="160" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WxggVFZYJX4_dqJ5AxjA-2" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="170" as="sourcePoint" />
+            <mxPoint x="160" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WxggVFZYJX4_dqJ5AxjA-3" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;1. Mobile user can create Trip Entry&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;2. Mobile User can edit Trip Entry&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;3. Power user can perform all these actions i.e other action along with export app database&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;4. App data get backed up to the cloud&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;rounded=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="230" y="441" width="490" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WxggVFZYJX4_dqJ5AxjA-4" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.671;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="xMFwPtLSbpC_3gg9WsXq-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="180" as="sourcePoint" />
+            <mxPoint x="160" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WxggVFZYJX4_dqJ5AxjA-5" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="270" as="sourcePoint" />
+            <mxPoint x="170" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WxggVFZYJX4_dqJ5AxjA-6" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="xMFwPtLSbpC_3gg9WsXq-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="280" as="sourcePoint" />
+            <mxPoint x="180" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WxggVFZYJX4_dqJ5AxjA-10" value="System boundaries" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="295" y="88" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WxggVFZYJX4_dqJ5AxjA-11" value="iCloud" style="whiteSpace=wrap;html=1;aspect=fixed;spacingTop=0;spacing=2;spacingLeft=0;spacingRight=100;" vertex="1" parent="1">
+          <mxGeometry x="570" y="130" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="WxggVFZYJX4_dqJ5AxjA-12" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="172" width="20" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WxggVFZYJX4_dqJ5AxjA-16" value="" style="endArrow=none;html=1;rounded=0;entryX=1.021;entryY=0.6;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="xMFwPtLSbpC_3gg9WsXq-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="180" as="sourcePoint" />
+            <mxPoint x="480" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WxggVFZYJX4_dqJ5AxjA-17" value="" style="endArrow=none;html=1;rounded=0;exitX=-0.025;exitY=0.675;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="WxggVFZYJX4_dqJ5AxjA-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="280" as="sourcePoint" />
+            <mxPoint x="440" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WxggVFZYJX4_dqJ5AxjA-18" value="BackUp" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="150" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WxggVFZYJX4_dqJ5AxjA-19" value="BackUp" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="220" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WxggVFZYJX4_dqJ5AxjA-20" value="External Actor" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="595" y="98" width="100" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
